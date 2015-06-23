@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D73D32"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:layout_marginLeft="5dip"
+        android:text="User Name"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:id="@+id/editTextUserName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dip"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:layout_marginTop="5dip"
+        android:background="@drawable/edittext_prop"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textCursorDrawable="@null"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/Password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:layout_marginLeft="5dip"
+        android:text="Password"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dip"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:layout_marginTop="5dip"
+        android:textCursorDrawable="@null"
+        android:background="@drawable/edittext_prop"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:paddingLeft="10dp"
+        android:singleLine="true"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/ConfirmPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:layout_marginLeft="5dip"
+        android:text="Confirm Password"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:id="@+id/editTextConfirmPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dip"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:layout_marginTop="5dip"
+        android:textCursorDrawable="@null"
+        android:background="@drawable/edittext_prop"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:paddingLeft="10dp"
+        android:singleLine="true"
+        android:textColor="#000" />
+
+    <Button
+        android:id="@+id/buttonCreateAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="60dp"
+        android:background="#ffffff"
+        android:padding="5dp"
+        android:text="Create Account"
+        android:textColor="#000" />
+
+</LinearLayout>

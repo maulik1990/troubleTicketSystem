@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:id="@+id/relative"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D73D32" >
+
+    <GridView
+        android:id="@+id/gridView1"
+       android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnWidth="150dp"
+        android:gravity="center"
+        android:horizontalSpacing="50dp"
+        android:numColumns="2"
+        android:verticalSpacing="50dp"
+        android:layout_centerInParent = "true"
+         >
+    </GridView>
+
+</RelativeLayout>

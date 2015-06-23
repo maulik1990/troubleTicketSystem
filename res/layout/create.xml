@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#D73D32"
+     >
+
+    <TextView
+        android:id="@+id/subject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:paddingBottom="10dp"
+        android:text="Subject"
+        android:textSize="20sp"
+        android:textColor="#fff" />
+
+    <EditText
+        android:id="@+id/subjectContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textstyle"
+        android:ems="10"
+        android:height="50dp"
+        android:textColor="#000"
+        android:paddingBottom="15dp"
+        android:textCursorDrawable="@null"
+        android:textSize="15sp"
+        android:paddingLeft="5dp" >
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingTop="10dp"
+        android:text="Detail"
+        android:textSize="20sp"
+        android:textColor="#fff" />
+    
+    <EditText
+        android:id="@+id/troubleDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textstyle"
+        android:gravity="top"
+        android:textColor="#000"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:maxLength="500"
+        android:padding="20dp"
+        android:textCursorDrawable="@null"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/priority"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingTop="10dp"
+        android:text="Priority"
+        android:textSize="20sp"
+        android:textColor="#fff" />
+       
+       <Spinner
+        android:id="@+id/priorityList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/priority"
+        android:paddingBottom="10dp"
+        android:textSize="15sp"
+        
+   		 />
+       
+       <Button
+           android:id="@+id/create"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:gravity="center"
+           android:text="Create" 
+           android:textColor="#000"      
+           android:background="#ffffff" />
+
+</LinearLayout>
